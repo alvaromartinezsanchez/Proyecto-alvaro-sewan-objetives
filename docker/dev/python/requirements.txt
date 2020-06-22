@@ -1,0 +1,5 @@
+Django>=2.0,<3.0
+djangorestframework>=3.9.0
+django-cors-headers>=3.0
+django-jsonfield>=1.2.0
+isbnlib>=3.9.8

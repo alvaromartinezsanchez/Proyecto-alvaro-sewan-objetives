@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  planner_api:
+    build: ./python
+    environment:
+      - TZ=Europe/Madrid
+    env_file:
+      - .env
+    volumes:
+      - "../../:/home/python"
+    ports:
+      - 8000:8000

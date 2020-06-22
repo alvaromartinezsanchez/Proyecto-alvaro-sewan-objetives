@@ -1,0 +1,4 @@
+Django
+djangorestframework>=3.9.0
+django-cors-headers>=3.0
+django-jsonfield>=1.2.0
